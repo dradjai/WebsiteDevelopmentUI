@@ -1,0 +1,19 @@
+<div class="content">
+    <div style="text-align:center">
+        
+<div>
+    <h2>Login</h2>
+    <form #loginForm="ngForm"(submit) = "login(loginForm.value)">
+        <mat-form-field appearance="fill">
+            <mat-label>Username</mat-label>
+            <input matInput name="uname" ngModel placeholder="Username">
+          </mat-form-field>
+        <br> 
+        <mat-form-field appearance="fill">
+            <mat-label>Password</mat-label>
+          <input matInput name="pword" ngModel placeholder="Password">
+        </mat-form-field>
+        <br>
+        <button mat-raised-button color="primary">Login</button>
+    </form>
+</div>

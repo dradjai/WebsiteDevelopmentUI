@@ -1,0 +1,18 @@
+.content-body{
+    min-height: 100%;
+    padding: 60px 1rem;
+    display: block;
+   
+  }
+  
+  .full-width{
+    width: 80%
+  }
+  .mat-card{
+    max-width: 600px;
+    margin: 2em auto;
+    text-align: center;
+    max-height: 600px;
+    
+
+  }
